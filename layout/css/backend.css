@@ -1,0 +1,209 @@
+body{
+    background-color: #F4F4F4;
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.asterisk{
+ /* position: absolute;
+  top:6px;
+ right: 38px; */
+ font-size: 30px;
+color: red;
+}
+.btn{
+    margin-bottom: 5px;
+}
+
+/* start login */
+.login h4{
+   color:#888;
+}
+.login{
+    width:300px;
+    margin:100px auto;
+}
+.login input{
+    margin-bottom: 10px;
+}
+.login .form-control{
+    background-color: #E5E5E5;
+}
+/* end login */
+.contentnav{
+    background-color: #f8f9fa!important;
+}
+
+/* start dashboard page */
+  .home-stats .stat{
+     color: #EEE;
+     border-radius: 10px;
+      padding:20px;
+      font-size: 15px;
+  }
+  .home-stats .stat a{
+      color:white;
+  }
+  .home-stats .stat a:hover{
+    text-decoration: none;
+}
+
+  .home-stats .stat p{
+      display: block;
+      font-size: 50px;
+  }
+.home-stats .stat.st-members{
+    background-color: blue;
+}
+.home-stats .stat.st-pending{
+  background-color: rebeccapurple;
+}
+.home-stats .stat.st-items{
+  background-color: goldenrod;
+}
+.home-stats .stat.st-comments{
+  background-color: rosybrown;
+}
+  .latest{
+      margin-top: 40px;
+  }
+.latest-users{
+  margin-bottom: 0;
+}  
+.latest-users li{
+  padding:8px;
+  overflow: hidden;
+}
+.latest-users li:nth-child(odd){
+  background-color: #EEE;
+}
+
+.latest-users .btn-success ,.latest-users .btn-info{
+  padding:3px 8px;
+  float: right;
+  margin-left:5px
+}
+  .panel{
+    margin-top:10px;
+  }
+  .panel .panel-heading{
+    background-color: #EEE;
+    padding: 15px;
+    border: 1px solid #CCC;
+  }
+  .panel .panel-heading .pull-right{
+       float: right;
+       cursor: pointer;
+  }
+  .panel .panel-body{
+    background-color: white;
+    padding: 15px;
+    
+  }
+/* end dashboard page */
+
+/* start members page */
+ h1{
+     font-weight: bold;
+     margin-top:40px;
+     margin-bottom: 30px;
+ }
+ /* span {
+    position: absolute;
+    top: 55px;
+    right: -30px;
+    font-size: 20px;
+    color: gray;
+    } */
+#main-table{
+    box-shadow: 0 3px 10px #CCC;
+}
+#main-table td{
+       background-color: #FFF;
+      text-align: center;
+   }
+
+  #main-table tr:first-child td{  
+      /* you can use thead */
+      background-color: #333;
+      color:#FFF;
+  }  
+/* end members page */
+
+/* start category */
+.category-p{
+margin-bottom: 5px;
+text-align: center;
+}
+.category-form{
+  text-align: center;
+}
+.categories .cat{
+  position: relative;
+  overflow:hidden;
+  padding: 20px;
+}
+.categories .cat h3{
+  cursor: pointer;
+}
+.categories .hidden-buttons{
+  position: absolute;
+  right: -190px;
+  top: 20px;
+  transition: all 0.5s ease-in-out;
+}
+.categories .cat:hover .hidden-buttons{
+  right: 20px;
+}
+.categories .cat:hover{
+  background-color: #EEE;
+}
+.categories .hidden-buttons .btn-primary{
+  margin-right: 5px;
+  
+}
+.categories .option a{
+  color:#888;
+  text-decoration: none;
+}
+.categories .option span{
+  color:#888;
+  cursor: pointer;
+}
+
+.categories .option .active{
+  color:red;
+}
+.categories .pullright{
+  float: right;
+}
+
+.categories .cat:last-of-type ~hr{
+  display: none;
+}
+.categories .cat .visibility, .categories .cat .commenting,.categories .cat .advertises{
+  color:white;
+  padding: 4px 6px;
+  margin-right: 6px;
+  border-radius: 6px;
+}
+.categories .cat .visibility{
+  background-color: red;
+}
+.categories .cat .commenting{
+  background-color: #fd7e14;
+}
+.categories .cat .advertises{
+  background-color: #dc3545;
+}
+.categories hr {
+  margin-top: 1.5rem;
+}
+/* end  category */
+/* start bootstrap  edits*/
+ .form-control{
+     position: relative;
+ }
+/* end bootstrap  edits*/
